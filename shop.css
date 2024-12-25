@@ -1,0 +1,157 @@
+body{
+    /* background-color: red; */
+    background-color:white;
+    /* height: inherit;
+    width: 100%; */
+        
+overflow: hidden;
+}
+span{
+    color: rgb(27, 170, 196);
+}
+
+.intro{
+    display: inline-block;
+
+}
+.text{
+    font-size: 56px;
+    letter-spacing: 4px;
+    margin-left: 300px;
+    border-right: 5px solid ;
+   margin-top: 30px;
+    color: rgb(67, 19, 90);
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 15s ,cursor .4s step-end infinite alternate;
+    padding-top: 80px;
+}
+.heading{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 330px;
+    gap: 350px;
+    color: #0f081c;
+    font-size: 20px;
+}
+
+.one1{
+    text-decoration: none;
+}
+
+.two2{
+    text-decoration: none;
+}
+
+@keyframes cursor{
+30%{border-color: black;}
+}
+@keyframes typing{
+    from{width:0;}
+}
+
+.shop,.content{
+    height: 350px;
+    width: 350px;
+    border: 3px solid rgb(87, 76, 78);
+    position: absolute;
+    background-color: rgb(21, 173, 166);
+    transition: box-shadow 1s ease-in;
+}
+.shop{
+    left: 17%;
+    bottom: 20px;
+    border-radius: 25%;
+}
+
+.heading{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 330px;
+    gap: 350px;
+    color: #0f081c;
+    font-size: 20px;
+}
+
+.one1{
+    text-decoration: none;
+}
+
+.two2{
+    text-decoration: none;
+}
+
+
+.content{
+    right: 18%;
+    bottom: 20px;
+    border-radius: 25%;
+}
+img{
+    height: 320px;
+    width: 320px;
+    border-radius: 24%;
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+.shop:hover,.content:hover{
+    box-shadow: 6px 8px 18px black;
+}
+.matter
+{
+position: relative;
+width: 200px;
+height: 200px;
+border-radius: 50px;
+opacity: 0;
+transition: 1s ease-in 1s;
+/* border: 4px solid white; */
+}
+
+.shop a,.content a{
+    text-decoration: none;
+    text-shadow:black;
+}
+
+.lside{
+    bottom: 250px;
+    right:-15px;
+    background-image: url("parents1.gif");
+    background-size: cover;
+    /* background-image:linear-gradient(to right,yellow,white) ; */
+}
+
+.rside{
+    bottom: 250px;
+    left:15px;
+    /* background-image:linear-gradient(to right,white,yellow) ; */
+    background-image: url("see.gif");
+    background-size: cover;
+}
+
+.matter p{
+    position: relative;
+    left:20px;
+    top: 30px;
+    color: black;
+    font-weight: 500;
+}
+.shop:hover .lside{
+    opacity: 1;
+    
+    bottom: 450px;
+    right:215px;
+    
+}
+
+.content:hover .rside{
+    opacity: 1;
+    
+    bottom: 450px;
+    left:375px;
+    
+}

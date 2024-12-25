@@ -1,0 +1,24 @@
+body{
+    background:linear-gradient(220deg,#ffffef,#51e4bf);
+}
+*{
+    padding-left: 27px;
+    
+}
+.ll{
+
+font-size: 90px;
+}
+ul>li{
+    font-size: 90px;
+}
+button{
+    width: 130px;
+    height: 50px;
+    color: black;
+    background-color: crimson;
+}
+button:hover{
+    color: white;
+    background-color:blueviolet;
+}

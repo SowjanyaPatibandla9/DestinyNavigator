@@ -1,0 +1,195 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiddy's World</title>
+     <!-- FAVICON -->
+     <link rel="shortcut icon" type="image/webp" href="1.webp">
+    <!-- ALL CSS LINK -->
+    <link rel="stylesheet" href="stylep.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="header.css">
+    <!-- FONT-AWESOME -->
+    <script src="https://kit.fontawesome.com/72215895a8.js" crossorigin="anonymous"></script>
+    <style>
+        #section_1 img{
+            width: unset;/*resets the property to its inherited value*/
+        }
+        ol > li > span{
+            color: #505050;
+            font-weight: 500;
+        }
+        body{
+            background:linear-gradient(120deg,#ffffef,#51e4bf);
+        }
+        header{
+            background:linear-gradient(200deg,#ffffef,#51e4bf);
+        }
+        footer{
+            background:linear-gradient(120deg,#ffffef,#51e4bf);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER MENU SECTION -->
+    <header>
+        <div id="logo">
+            <img src="1.webp" width="220" height="70" id="landingPage">
+        </div>
+        <div id="brand">
+            <h2 id="kid">Kiddy<span>'S</span>&nbsp;&nbsp;World</h2>
+        </div>
+        <ul id="nav_bar">
+            <li id="megamenu_container"><a href="menHomePage.html">Boys</a></li>&nbsp;
+            <li><a href="womenHomePage.html">Girls</a></li>&nbsp;
+            <li><a href="toyshome">Toys</a></li>&nbsp;
+            <li><a href="accessiorshome.html">Accessories</a></li>&nbsp;
+            <li><a href="stationaryhome.html">Stationary</a></li>&nbsp;
+            <li id="studio"><a href="foodhome.html">Food Items</a></li>&nbsp;
+           
+        </ul> 
+        <div id="right_icon">
+            <div>
+                <i class="fa-solid fa-user"></i>
+                <a href="about_page.html"><span>About</span></a>
+            </div>
+            <div>
+                <i class="fa-regular fa-heart"></i>
+                <span>Wishlist</span>
+            </div>
+            <div>
+                <i class="fa-solid fa-bag-shopping"></i>
+                <span>Cart</span>
+            </div>
+        </div>
+                   <!-- TOGGLE MENU -->
+                   <div id="toggle">
+                    <i class='bx bx-menu dropbtn' onclick="myFunction()"></i>
+                    <div id="myDropdown" class="dropdown-content">
+                        <div class="top">
+                            <a href="menHomePage.html">BOys</a>
+                            <a href="womenHomePage.html">Girls</a>
+                            <a href="toyshome.html">Toys</a>
+                            <a href="accessiorshome.html">Accessories</a>
+                            <a href="stationaryhome.html">Stationary</a>
+                            <a href="foodhome.html">Food Items</a>
+                        </div>
+                        <div class="bottom">
+                            <i class="fa-regular fa-user fa_user" id="profile"></i>
+                            <i class="fa-regular fa-heart fa_wishlist"></i>
+                            <i class="fa-solid fa-bag-shopping fa_cart"></i>
+                        </div>               
+                    </div>
+                </div>
+    </header>
+
+    
+    <div class="slider">
+        <div class="slides">
+            <!--radio buttons start-->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <input type="radio" name="radio-btn" id="radio5">
+
+            <!--slide images start-->
+            <div class="slide first">
+           <a href="women.html">     <img src="slide5.jpeg"  ></a>
+            </div>
+            <div class="slide">
+            <a href="mens.html">     <img src="slide1.jpeg"></a>
+            </div>
+            <div class="slide">
+            <a href="women.html">     <img src="slide2.jpeg"></a>
+            </div>
+            <div class="slide">
+            <a href="mens.html">    <img src="slide3.jpeg"></a>
+            </div>
+            <div class="slide">
+                <img src="slide4.jpeg">
+            </div>
+        </div>
+
+        <!--manual navigation start-->
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+            <label for="radio5" class="manual-btn"></label>
+        </div>
+    </div>
+
+
+    <h1>DEALS OF THE DAY</h1>
+    <div id="deals">
+
+    </div>
+    <h1>TOP PRODUCTS</h1>
+    <div id="top">
+    </div>
+    <h1>CATEGORIES</h1>
+    <div id="categories">
+    </div>
+
+   
+          <!-- FOOTER SECTION -->
+          <footer>
+            <section id="section_1">
+                <div class="total">
+                <div id="left">
+                    <div>
+                      <h4>Our categories</h4>
+                      <a href="women.html"> <p>Girls</p></a>
+                      <a href="mens.html"><p>BOys</p></a>
+                          <a href="station.html">  <p>Stationary</p></a>
+      <a href="toy.html">
+          <p>Toys</p></a>
+      <a href="women.html">   <p>Girls Foot wear</p></a>
+      <a href="mens.html"> <p>Boys foot wear</p></a>
+                    </div>
+                </div>
+    
+                </div>
+               
+            </section>
+            <section id="section_4">
+                <p>In case of any concern <a href="contactswapna.php"> contact us</a></p>
+                <div>
+                    <h4 id="social_connect">Follows Us at</h4>
+                    <div>
+                      <i class="fa-brands fa-facebook-square"></i>
+                      <i class="fa-brands fa-twitter-square"></i>
+                      <i class="fa-brands fa-youtube"></i>
+                      <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+                <p>&#169; www.kiddy's world.com. All rights reserved.</p>
+            </section>
+            <hr>
+          
+        </footer>
+        <script>
+            var images = document.querySelectorAll('img')
+          for(let i=0; i<images.length; i++){
+            images[i].addEventListener('click', function(){
+              window.location.href = "mens.html"
+            })}
+        </script>
+</body>
+
+</html>
+<script src="deals.js"></script>
+<script src="headerMenu.js"></script>
+<script src="corousel.js"></script>
+<script src="hyperlinks.js"></script>
+
+
